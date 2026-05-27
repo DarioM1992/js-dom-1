@@ -9,5 +9,6 @@ btn.addEventListener('click' , () => {
    } else {
     btn.textContent = "\"Accendi\"";
    }
-});
 
+   img.src = img.src.includes (imgOff) ? imgOn : imgOff ;
+});
